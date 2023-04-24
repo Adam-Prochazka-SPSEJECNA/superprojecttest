@@ -1,0 +1,1 @@
+$(document).ready(function(){var e=document.cookie.split(";"),i="";for(let t of e)if(t.includes("search=")){i=t.split("=")[1];break}function o(e){let i=new Date;i.setTime(i.getTime()+432e5);let t="expires="+i.toUTCString();document.cookie="search="+e+";"+t}});
